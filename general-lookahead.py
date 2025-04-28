@@ -1,3 +1,5 @@
+import math
+
 def reward_function(params):
     """
     Generalizable reward function for AWS DeepRacer
@@ -98,7 +100,7 @@ def get_track_direction(waypoints, prev_point_idx, next_point_idx):
     """
     Calculate the direction of the track (in degrees) between two waypoints
     """
-    import math
+    
     
     # Get the coordinates of the next waypoint
     next_point = waypoints[next_point_idx]
@@ -121,7 +123,7 @@ def calculate_curvature(waypoints, current_point_idx, lookahead_points):
     Calculate the curvature of the track ahead
     Higher values indicate sharper turns
     """
-    import math
+    
     
     # If we don't have enough waypoints, return a default value
     if len(lookahead_points) < 3:
@@ -183,7 +185,6 @@ def calculate_racing_line(waypoints, closest_waypoints, track_width, curvature):
     For straight sections: center of track
     For curves: inside of the turn
     """
-    import math
     
     # Default to center of track
     optimal_distance = 0.0
