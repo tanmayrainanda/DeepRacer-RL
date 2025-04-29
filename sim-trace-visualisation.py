@@ -214,7 +214,6 @@ def create_metrics_plots_from_csv(csv_file_path, save_path=None, show_plot=True,
     else:
         plt.close()
 
-# Example usage:
 if __name__ == "__main__":
     sim_trace_csv_file = "Catalunya-General.csv"
     
