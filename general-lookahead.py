@@ -21,7 +21,7 @@ def reward_function(params):
     # Constants
     MAX_SPEED = 8.0  # Maximum speed in m/s
     MIN_SPEED = 1.5  # Minimum speed in m/s
-    LOOKAHEAD_POINTS = 8  # Number of waypoints to look ahead
+    LOOKAHEAD_POINTS = 16  # Number of waypoints to look ahead
     
     # Base reward
     reward = 1.0
