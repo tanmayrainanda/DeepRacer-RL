@@ -11,6 +11,8 @@ reward-functions-Bilawal: Bilawal's reward function experimentation
 
 reward-functions-tanmay: Tanmay's reward function experimentation
 
+Multimedia - Sim Video: Example simulation videos for some reward functions (visualisation of how car navigates specific tracks)
+
 
 Sim Trace Images: Plots for analysis of track specific metrics
 
